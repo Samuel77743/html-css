@@ -32,7 +32,8 @@ Desafios
     Desafio 08: *Criação de multíplas páginas que podem ser transitadas através de links, com estilos diferenciados via CSS
 
     Desafio 09: *Criar uma grade com diferentes opções que leva através do link a uma página dedicada onde 
-    se possa assistir ao conteúdo clicado hospedado no servidor do YouTube incorporado por <iframe>, além de botão de voltar elaborado e ancora para acesso completo.
+    se possa assistir ao conteúdo clicado hospedado no servidor do YouTube incorporado por <iframe>,
+     além de botão de voltar elaborado e ancora para acesso completo.
 
     Desafio 10: *Extremamente elaborado, foi realizado uma página informativa e amplamente estilizada e responsiva,
     feita apenas consultando o visual requerido sem instrução alheia.
