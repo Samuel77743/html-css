@@ -42,4 +42,4 @@ Desafios
     aplicando boas práticas, trazendo um blog impecável e muito intuitivo satisfatório de ler.
 
 Exercícios
-    Feitos utilizando conhecimento concedido, mas sempre com muita originalidade e adições, a cada exercício apliquei o melhor que podia com tudo que já sabia até o momento.
+    ---> Feitos utilizando conhecimento concedido, mas sempre com muita originalidade e adições, a cada exercício apliquei o melhor que podia com tudo que já sabia até o momento. <---
