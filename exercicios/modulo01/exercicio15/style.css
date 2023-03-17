@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body{
+   background-color: rgb(54, 34, 54);
+}
+
+h1{
+color: rgb(197, 133, 197);
+font-family: Arial;
+}
+
+h2{
+color: brown;
+}
+
+p{
+font-size: 20px;
+color: seagreen;
+text-align: justify;
+}
+
+.move{
+    text-align: right;
+}
+
+a{
+    color: aquamarine;
+}

@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(30deg, #F29F05 45%, #D9072D, black);
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;         
+    /* 
+      Medidas absolutas: px, pt, pc, in, cm, mm
+      Medidas Relativas: em, ex, rem, vw, vh, %
+    */    
+}
+
+main{ 
+    background-color: #F2F0D8;
+    width: 30em;
+    padding: 0.7em;
+    border-radius: 1.6em;
+    box-shadow: 1.5em 1.5em 1.5em rgba(29, 10, 10, 0.8);
+}
+
+h1{
+  /*
+  Jeito Tradicional:display:
+  font-style: italic;
+  font-weight: bold;
+  font-size: 2.1em;
+  font-family: Verdana, Arial, sans-serif;
+  
+  Com Shorthand: 
+  font: font-style, font-weight, font-size, font-family*/
+  font: italic bold 2.1em verdana;
+}
+
+h2{
+  font: bold 1.4em Arial
+}
+

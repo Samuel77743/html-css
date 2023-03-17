@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias wm HTML5</title>
+</head>
+
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abrir este site em diferentes dispositivos, ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    
+    <picture>
+        <source media="(max-width: 750px  )" srcset="imagens/fotoP.png">
+        <source media="(max-width: 1050px )" srcset="imagens/fotoM.png">
+        <img src="imagens/fotoG.png" alt="Foto GRANDE flexível  ">
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos reproduzir áudios em HTML5</p>
+    
+    <audio preload="metadata" autoplay loop controls>
+       <source src="audio/tom.mp3" type="audio/mpeg">
+       <source src="audio/tom.ogg" type="audio/ogg">
+       <p>Infelizmente não foi possível reproduzir a linda melodia por um dos seguintes motivos:</p>
+       <ul>
+        <li>Seu navegador não tem suporte para este tipo de interatividade</li>
+        <li>Os arquivos originais estão em manutenção no servidor</li>
+        <a href="audio/tom.mp3" download="tom.mp3" type="audio/mp3"></a>
+       </ul>
+    </audio>
+
+</body>
+</html>

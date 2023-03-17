@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com Links</title>
+</head>
+
+<body>
+    <h1>Links Externos</h1>
+    <p>Links externos são utilizados para que o usuário transite entre uma página e outra principalmente.</p>
+
+    <h2>Link sem target/rel</h2>
+    <p>Olha que música legal: <a href="https://youtu.be/WpmILPAcRQo?t=11">Clique Aqui</a></p>
+
+    <h2>Link utilizando parâmetros target/rel</h2>
+    <p>Esses parâmetros auxiliam o usuário a abrir uma nova página sem ter que fechar a guia atual: <a href="https://www.youtube.com/watch?v=_hpy5lI6PgY" target="_blank" rel="external">Clique Aqui</a></p>
+
+    <h2>Links Internos</h2>
+    <p><a href="pagina02.html" target="_self" rel="next">Ir para página secundária</a></p>
+
+    <h2>Link com parâmetro rel="nofollow"</h2>
+    <p><mark>"nofollow" induz o mecanismo de pesquisa a entender que o responsável pela página não avalia nem necessariamente valida as informações do site ancorado.</mark></p>
+    <p>Link com nofollow, é esteticamente indiferente ao usuário, mas relevante ao mecanismo de pesquisa: <a  target="_blank" rel="nofollow, external" href="https://www.instagram.com/reel/ConGbX9OiQg/?utm_source=ig_web_copy_link">Clique Aqui</a></p>
+
+    <h2>Página alocada em sub-pasta local</h2>
+    <p>Página de Notícias: <a target="_self" href="noticias/noticias.html">clica em mim</a></p>
+
+    <h2>Links de Download</h2>
+    <ul>
+        <li><a href="works/swapping.pdf" target="_blank">Sistemas Operacionais - PDF</a></li>
+
+        <li><a href="works/ferramentas.pdf" target="_blank">Projeto de Software - PDF</a></li>
+
+        <li><a href="works/swapping DO SAMELKA.zip" download="swapping DO SAMELKA.zip" type="application/zip">Sistemas Operacionais - ZIP</a></li>
+
+    </ul>
+</body>
+</html> 

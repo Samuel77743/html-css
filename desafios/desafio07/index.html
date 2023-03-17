@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-r">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/icon.ico" type="image/x-shortcut">
+    <title>Imagem Flexível - Desafio</title>
+</head>
+<body>
+    <h1>Imagem Flexível</h1>
+    <p>Experimente aumentar o tamanho da janela para vizualizar toda a imagem.</p>
+
+    <picture>
+        <source media="(max-width:474px )" srcset="imagens/324px.jpg">
+        <source media="(max-width:659px )" srcset="imagens/558px.jpg">
+        <source media="(max-width:800px )" srcset="imagens/700px.jpg">
+        <source media="(max-width:1100px )" srcset="imagens/1000px.jpg">
+        
+        <img src="imagens/1486px.jpg" alt="Homem-Aranha - Imagem">
+    </picture>
+
+    <p><strong>Se houver quaisquer problema, o download e vizualição pode ser concedido <a href="imagens/1486px.jpg" download="1486px.jpg" target="_blank" rel="external" type="image/jpeg">CLICANDO AQUI</a></strong></p>
+    
+</body>
+</html>

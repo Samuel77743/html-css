@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos localmente</h1>
+    <p><strong>Este vídeo está armazenado no meu próprio servidor</strong></p>
+
+    <video poster="imagens/maxresdefault.jpg" preload="metadata" autoplay loop controls width="560" height="315">
+        <source src="midia/original.mp4" type="video/mp4">  
+        <source src="midia/comprimido.webm" type="video/webm">
+        <source src="midia/ogv.ogv" type="video/ogg">
+        <p>Seu navegador não foi capaz de reproduzir o conteúdo, clique aqui para baixá-lo: <strong><a href="midia/original.mp4" download="original.mp4" type="video/mp4">DOWNLOAD</a></strong></p>  
+        
+    </video>
+    
+    <p>Seu navegador não foi capaz de reproduzir o conteúdo, clique aqui para baixá-lo: <strong><a href="midia/original.mp4" download="midia/original.mp4" target="_blank" rel="external" type="video/mp4">DOWNLOAD</a></strong></p>
+
+    <h1><strong>Mesmo vídeo incorporado pelo YouTube:</strong></h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/-yErS2Z4-NQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <h1>Inserindo vídeos incorporados do YouTube:</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/gmA6MrX81z4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <h1>Inserindo vídeos incorporados do Vimeo:</h1>
+    <iframe src="https://player.vimeo.com/video/439059748?h=95f9f44b99&color=ff0179&title=0&byline=0&portrait=0" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

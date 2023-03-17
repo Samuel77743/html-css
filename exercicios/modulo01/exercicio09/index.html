@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Listas: ordenadas e desordenadas ( &lt;ol&gt; &lt;ul&gt; e &lt;li&gt;)</h1> 
+    
+    <h2>Filmes favoritos:</h2>
+    <ol>
+        <li>Questão de Tempo(2013)</li>
+        <li>Homem-Aranha 2(2004)</li>
+        <li>Homem-Aranha Sem Volta para Casa(2021)</li>
+        <li>10 Coisas que Odeio em Você(1999)</li>
+        <li>Amor e Outras Drogas(2010)</li>
+        <li>Interestelar(2014)</li>
+        <li>Batman: O Cavaleiro das Trevas(2008)</li>
+        <li>Os Vingadores: Ultimato(2019)</li>
+        <li>Os Vingadores: Guerra Infinita(2018)</li>
+        <li>O Espetacular Homem-Aranha 2: A Ameaça de Electro(2014)</li>
+    </ol>
+
+    <h2>Podemos através de parâmetros definir o <mark>type=""</mark> e o <mark>start=""</mark> da lista dentro da tag &lt;ol&gt;</h2>
+
+    <ol type="a" start="3">
+        <li>oi</li>
+        <li>ai</li>
+        <li>EI</li>
+        <li>hello world</li>
+    </ol>
+
+    <h2>Lista desordenada:<mark>&lt;ul&gt;</mark></h2>
+    <p>Lista desordenada padrão(type="disc"):</p>
+    <ul>
+        <li>Oi cara</li>
+        <li>bom dia</li>
+        <li>Beba água</li>
+    </ul>
+
+    <p>Type="circle"</p>
+    <ul type="circle">
+        <li>Rockstar Games</li>
+        <li>Naughty Games</li>
+        <li>Activision</li>
+    </ul>
+
+    <p>Type="square"</p>
+    <ul type="square">
+        <li>daas</li>
+        <li>asdasdas</li>
+    </ul>
+   
+    <!--Parte Dois: LISTAS MISTAS-->
+    <h1>Aninhamento de Listas</h1>
+    <p>As listas podem se entrelaçar para que a informação fique mais intuitiva.</p>
+
+    <h2>Linguagens:</h2>
+
+    <ol type="1" start="1">
+        <li>Linguagens que eu gostaria de conhecer:</li>
+        <ol type="a">
+            <li>PHP</li>
+            <li>Java</li>
+            <li>C#</li>
+            <li>SQL</li>
+        </ol>
+        <li>Linguagens que já desenvolvi projetos:</li>
+        <ol type="a">
+            <li>C</li>
+            <li>C++</li>
+            <li>Python</li>
+            <li>Basic</li>
+            <li>JavaScooript</li>
+        </ol>
+    </ol>
+
+    <h2>Jogos Favoritos</h2>
+    <ul type="square">
+        <li>Playstation</li>
+
+        <ol>
+            <li>The Last Of Us</li>
+            <ool type="a">
+                <li>The Last Of Us Part I(2022)</li>
+                <li>The Last Of Us Part II(2020)</li>
+            </ool>
+            <li>Uncharted 4(2016)</li>
+        </ol>
+          
+        <br>
+        <li>Microsoft</li>
+
+        <ol>
+            <li>Forza</li>
+            <ol type="a">
+                <li>Forza Horizon</li>
+                <li>Forza Horizon 4</li>
+                <li>Forza Horizon 5</li>
+            </ol>
+            <li>Sunset Overdrive(2014)</li>
+            <li>State of Decay</li>
+        </ol>
+        <br>
+        <li>Rockstar Games</li>
+        <ol>
+            <li>Grand Theft Auto</li>
+            <ol type="a">
+                <li>GTA San Andreas(2004)</li>
+                <li>GTA IV(2008)</li>
+                <li>GTA V(2013)</li>
+                <li>GTA Vice City(2002)</li>
+            </ol>
+            <li>Bully(2007)</li>
+            <li>Midnight Club Los Angeles(2008)</li>
+            <li>Red Dead</li>
+            <ol type="a">
+                <li>Red Dead Redemption(2010)</li>
+                <li>Red Dead Redemption 2(2018)</li>
+            </ol>
+        </ol> 
+        <li>Ubisoft</li>
+        <ol>
+            <li>Assassin's Creed</li>
+            <ol type="a">
+                <li>Assassin's Creed III</li>
+                <li>Assassin's Creed Black Flag</li>
+                <li>Assassin's Creed Rogue</li>
+            </ol>
+
+            <li>Far Cry</li>
+            <ol type="a">
+                <li>Far Cry 3(2012)</li>
+                <li>Far Cry 4(2014)</li>
+                <li>Far Cry 5(2018)</li>
+            </ol>
+            <li>Watch Dogs(2014)</li>
+        </ol>
+        
+        <li>EA Games</li>
+        <ol>
+            <li>Battlefield</li>
+            <ol type="a">
+                <li>Battlefield 1</li>
+                <li>Battlefield 4</li>
+            </ol>
+            <li>Need For Speed</li>
+            <ol type="a">
+                <li>NFS Monster Wanted</li>
+                <li>NFS Hot Porsuit</li>
+            </ol>
+            <li>The Sims</li>
+            <ol type="a">
+                <li>The Sims 2</li>
+                <li>The Sims 4</li>
+            </ol>   
+        </ol>
+
+    </ul>
+
+    <p><strong>Ta, entendi</strong></p>
+
+    <h2>Lista de Definição</h2>
+
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de Marcação que serve como esqueleto da página</dd>
+
+        <dt>CSS</dt>
+        <dd>Linguagem de Marcação que estiliza a página, complementando o que foi desenvolvido pelo HTML</dd>
+
+        <dt>JavaScript</dt>
+        <dd>Linguagem de Programação que dá interatividade a página WEB</dd>
+    </dl>
+
+    
+</body>
+</html>

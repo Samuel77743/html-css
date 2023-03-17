@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: cadetblue;
+            margin: 0px;
+        }
+
+        header{
+            background-color: white;
+            padding: 15px;
+            margin: 10px;
+            border-radius: 15px;
+            
+
+        }
+
+        nav{
+            background-color: aquamarine;
+            padding: 4px;
+            text-align: center;
+            box-shadow: 2px 2px 2px black;
+            border-radius: 15px;
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: green;
+            font-weight: bold;
+            margin: 0px 60px;
+        }
+
+        nav > a:hover{
+            color: yellow;
+            font-size: 1.5em;
+        }
+
+        nav > a:active{
+            color: blueviolet;
+        }
+
+        nav > a:visited {
+            color: rgb(187, 27, 174);
+            
+        }
+
+        main{
+            background-color: white;
+            padding: 15px;
+            margin: 10px;
+            
+            
+        }
+
+            article{
+            background-color: aquamarine;
+            padding: 10px;
+            border-radius: 6px;
+            box-shadow: 2px 2px 3px 1px black;
+            
+        }
+
+        mark{
+            background-color: rgb(52, 71, 65);
+            color: aliceblue;
+            font-weight: bold;
+            padding: 5px;
+            margin: 0px 0px;
+            border-radius: 5px;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 20px auto;
+        }
+
+        footer > p{
+            margin: 0px;
+            text-align: center; 
+        }
+
+        p{
+            text-align: justify;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Site de Notícias</h1>
+        <nav>
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+            <a href="#">Link 4</a>
+            <a href="#">Link 5</a>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre Resident Evil 4 - REMAKE</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci saepe accusantium facilis eaque temporibus voluptate provident odio deleniti ducimus ratione! Soluta ut vel voluptatibus, commodi quod temporibus corrupti nisi, voluptatum quae ducimus qui accusamus reprehenderit officiis. Fugit tenetur veritatis, quae facilis, magni, impedit dolores aut odit quos illum laboriosam hic tempore saepe! Et aut laborum odio fugiat. Nihil voluptatem quasi velit amet dolorem, voluptates veritatis? Repellendus recusandae aliquam sed inventore? Facilis beatae dolorem a, odio fuga ullam alias voluptates unde molestiae, velit, impedit nulla perferendis. Repudiandae quasi quod expedita distinctio possimus illum sit, voluptas, modi facilis pariatur in, ex explicabo.</p>
+                <aside>
+                    <p><mark>Fonte: CAPCOM</mark></p>
+                </aside>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Samuel Silva</p>
+    </footer>
+</body>
+</html>

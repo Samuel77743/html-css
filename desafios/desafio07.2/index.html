@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Flexíveis - Remake</title>
+</head>
+<body>
+    <h1>Imagem Flexível</h1>
+
+    <p><strong>Você está fazendo a imagem completa? Experimente ampliar o tamanho da página!</strong></p>
+
+    <picture>
+        <source media="(max-width: 659px )" srcset="imagens/paisagem-p.png" type="image/png">
+        <source media="(max-width: 800px )" srcset="imagens/paisagem-m.png" type="image/png">
+
+        <img src="imagens/paisagem-g.png" alt="Moça fazendo pose em meio a paisagem paradisíaca">
+    </picture>
+
+</body>
+</html>
