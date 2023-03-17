@@ -21,19 +21,24 @@ Desafios
 
     Desafio 04: *Importação de caractéres Emojis importados por códigos.
 
-    Desafio 05: *Criar página referente ao social do desenvolvedor, utilizando ferramentas terceiras na edição de imagem(GNU Gimp).
+    Desafio 05: *Criar página referente ao social do desenvolvedor, utilizando ferramentas 
+    terceiras na edição de imagem(GNU Gimp).
 
     Desafio 06: *Utilização da tag <abbr> para criar página referenciando principais tags de conteúdo.
 
-    Desafio 07: *Tratamento de imagem em diferentes resolução de tela, portabilidade de site, utilizando diferentes recortes de imagem gerenciados pela tag <picture> e <source>.
+    Desafio 07: *Tratamento de imagem em diferentes resolução de tela, portabilidade de site, utilizando 
+    diferentes recortes de imagem gerenciados pela tag <picture> e <source>.
 
     Desafio 08: *Criação de multíplas páginas que podem ser transitadas através de links, com estilos diferenciados via CSS
 
-    Desafio 09: *Criar uma grade com diferentes opções que leva através do link a uma página dedicada onde se possa assistir ao conteúdo clicado hospedado no servidor do YouTube incorporado por <iframe>, além de botão de voltar elaborado e ancora para acesso completo.
+    Desafio 09: *Criar uma grade com diferentes opções que leva através do link a uma página dedicada onde 
+    se possa assistir ao conteúdo clicado hospedado no servidor do YouTube incorporado por <iframe>, além de botão de voltar elaborado e ancora para acesso completo.
 
-    Desafio 10: *Extremamente elaborado, foi realizado uma página informativa e amplamente estilizada e responsiva, feita apenas consultando o visual requerido sem instrução alheia.
+    Desafio 10: *Extremamente elaborado, foi realizado uma página informativa e amplamente estilizada e responsiva,
+    feita apenas consultando o visual requerido sem instrução alheia.
 
-    Desafio 10-Remake: *A reconstrução do zero do Desafio 10, agora corrigindo pequenos erros de responsividade e aplicando boas práticas, trazendo um blog impecável e muito intuitivo satisfatório de ler.
+    Desafio 10-Remake: *A reconstrução do zero do Desafio 10, agora corrigindo pequenos erros de responsividade e 
+    aplicando boas práticas, trazendo um blog impecável e muito intuitivo satisfatório de ler.
 
 Exercícios
     Feitos utilizando conhecimento concedido, mas sempre com muita originalidade e adições, a cada exercício apliquei o melhor que podia com tudo que já sabia até o momento.
