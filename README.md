@@ -1,5 +1,4 @@
-# html-css
- HTML5 e CSS3 - Desafios e Exercicios
+# HTML5 e CSS3 - Desafios e Exercicios
 
  Os ensinamentos deste curso foram instruidos por Curso em Vídeo,
  orientado por Gustavo Guanabara.
@@ -10,7 +9,7 @@
 
 # Sumario
 
-Desafios
+## Desafios
     ---> A lista de Desafios realizada são testes que comprovam a independência do Desenvolvedor ao ter estudado e praticado os exercícios. <---
 
     Desafio 01: *Conhecimento dos distintos elementos e seus espaçamentos.
